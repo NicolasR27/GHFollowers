@@ -38,8 +38,9 @@ class GFAlertVC: UIViewController {
         view.addSubview(containerview)
         containerview.layer.cornerRadius = 16
         containerview.layer.borderWidth = 2
-        containerview.layer.borderColor = .
-        containerview.trailingAncho
+        containerview.layer.borderColor = UIColor.white
+        containerview.trailingAnchor =
+        
     }
     
 }
