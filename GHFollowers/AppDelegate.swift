@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  GHFollowers
-//
-//  Created by Nicolas Rios on 4/4/22.
-//
 
 import UIKit
 
