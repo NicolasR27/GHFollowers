@@ -1,9 +1,4 @@
-//
-//  UIHelper.swift
-//  GHFollowers
-//
-//  Created by Nicolas Rios on 4/14/22.
-//
+
 
 import UIKit
 
