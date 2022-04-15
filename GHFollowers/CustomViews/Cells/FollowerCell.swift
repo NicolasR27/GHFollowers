@@ -1,9 +1,3 @@
-//
-//  FollowerCell.swift
-//  GHFollowers
-//
-//  Created by Nicolas Rios on 4/13/22.
-//
 
 import UIKit
 
