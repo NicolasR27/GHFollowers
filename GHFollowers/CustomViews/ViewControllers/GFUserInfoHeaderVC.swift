@@ -1,10 +1,9 @@
 
 import UIKit
 
-class UserInfoVC: UIViewController {
+class GFUserInfoVC: UIViewController {
     
     let headerView = UIView()
-    
     
     let avatarImageView = GFAvatarImageView(frame: .zero)
     let usernameNameLabel = GFTitleLabel(textAligment: .left, fontsize: 34)
@@ -40,7 +39,6 @@ class UserInfoVC: UIViewController {
             
             locationImageView.image = UIImage(systemName:SFSymbols.location)
             locationImageView.tintColor = .secondaryLabel
-            
             
         }
         
