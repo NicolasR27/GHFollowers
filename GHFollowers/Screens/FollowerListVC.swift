@@ -6,7 +6,6 @@ class FollowerListVC: UIViewController {
     enum Section {
         case main
     }
-    
     var username: String!
     var followers:[Follower] = []
     var hasMoreFollowers = true
@@ -123,6 +122,9 @@ extension FollowerListVC: UICollectionViewDelegate{
         
     }
 
+    func collectionView(_ collectionView:UICollectionView,didSelectItemAt indexPath:IndexPath){
+        let follower = followers
+}
     
 }
 
@@ -138,6 +140,8 @@ extension FollowerListVC: UISearchResultsUpdating,UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         updateData(on: followers)
     }
+    
+    
 }
 
  
