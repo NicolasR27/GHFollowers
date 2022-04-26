@@ -1,7 +1,7 @@
 
 import UIKit
 
-class GFUserInfoVC: UIViewController {
+class GFUserInfoHeaderVC: UIViewController {
     
     let headerView = UIView()
     
